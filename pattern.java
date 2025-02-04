@@ -144,6 +144,11 @@ public class pattern
         // }
 
 
+
+
+
+
+
 // 12345
 // 1234
 // 123
@@ -165,16 +170,199 @@ public class pattern
 // 7 8 9 10 
 // 11 12 13 14 15 
 
-        int num = 1;
-        for(int i=1; i<=n; i++) {
-            for(int j=1; j<=i; j++) {
-                System.out.print (num+" ");
-             num++;
-            }
-            System.out.println();
-        }
- 
+        // int num = 1;
+        // for(int i=1; i<=n; i++) {
+        //     for(int j=1; j<=i; j++) {
+        //         System.out.print (num+" ");
+        //      num++;
+        //     }
+        //     System.out.println();
+        // }
 
+
+
+
+
+ // ButterFly
+
+/*
+
+
+*        *    //1st part
+**      **
+***    ***
+****  ****
+********** 
+**********    // 2nd part
+****  ****
+***    ***
+**      **
+*        *
+
+
+ */
+
+//      1st part
+//         for(int i=1;i<=n;i++)
+//         {
+//                 for(int j=1;j<=i;j++)
+//                 {
+                       
+//                         System.out.print("*");
+//                 }
+
+//                 for(int j=1;j<=2*(n-i);j++ )
+//                 {
+//                         System.out.print(" ");
+//                 }
+
+//                 for(int j=1;j<=i;j++)
+//                 {
+//                         System.out.print("*");
+//                 }
+
+//                 System.out.println();
+//         }
+
+
+// //     2nd part 
+
+//         for(int i=n;i>0;i--)
+//         {
+//                 for(int j=1;j<=i;j++)
+//                 {
+//                         System.out.print("*");
+//                 }
+
+//                 for(int j=1;j<=2*(n-i);j++ )
+//                 {
+//                         System.out.print(" ");
+//                 }
+
+//                 for(int j=1;j<=i;j++)
+//                 {
+//                         System.out.print("*");
+//                 }
+
+//                 System.out.println();
+  
+//         }
+
+
+
+//     *****
+//    *****
+//   *****
+//  *****
+// *****
+
+
+        // for(int i=1;i<=n;i++)
+        // {
+        //     for(int j=n-i;j>0;j--)
+        //     {
+        //         System.out.print(" ");
+        //     }
+        //     for(int j=1 ;j<=n;j++)
+        //     {
+        //         System.out.print("*");
+        //     }
+
+        //     System.out.println();
+        // }
+
+
+
+
+// *        *
+// **      **
+// * *    * *
+// *  *  *  *
+// *   **   *
+// *   **   *
+// *  *  *  *
+// * *    * *
+// **      **
+// *        *
+
+
+
+//         //      1st part
+
+//         for(int i=1;i<=n;i++)
+//         {
+//                 for(int j=1;j<=i;j++)
+//                 {
+//                         if(j==1 || j == i)
+//                         {
+//                                 System.out.print("*");
+//                         }
+//                         else
+//                         {
+//                                 System.out.print(" ");
+//                         }
+//                 }
+
+//                 for(int j=1;j<=2*(n-i);j++ )
+//                 {
+//                         System.out.print(" ");
+//                 }
+
+//                 for(int j=1;j<=i;j++)
+//                 {
+//                         if(j==1 || j == i)
+//                         {
+//                                 System.out.print("*");
+//                         }
+//                         else
+//                         {
+//                                 System.out.print(" ");
+//                         }
+//                 }
+
+//                 System.out.println();
+//         }
+
+
+// //     2nd part 
+
+//         for(int i=n;i>0;i--)
+//         {
+//                 for(int j=1;j<=i;j++)
+//                 {
+//                         if(j==1 || j == i)
+//                         {
+//                                 System.out.print("*");
+//                         }
+//                         else
+//                         {
+//                                 System.out.print(" ");
+//                         }
+//                 }
+
+//                 for(int j=1;j<=2*(n-i);j++ )
+//                 {
+//                         System.out.print(" ");
+//                 }
+
+//                 for(int j=1;j<=i;j++)
+//                 {
+//                         if(j==1 || j == i)
+//                         {
+//                                 System.out.print("*");
+//                         }
+//                         else
+//                         {
+//                                 System.out.print(" ");
+//                         }
+//                 }
+
+//                 System.out.println();
+  
+//         }
 
     }
 }
+
+
+
