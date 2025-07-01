@@ -29,7 +29,7 @@ public class function
         //     return sum;
         // }
 
-
+// FACTORIAL
         public static void  fact(int n)
         {
             if(n<0)

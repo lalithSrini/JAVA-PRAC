@@ -7,9 +7,17 @@ public class logic
         
         Scanner sc = new Scanner(System.in);
 
-        int a = sc.nextInt();
+        String a = sc.nextLine();
 
-        System.out.println("hell"+a);
+        System.out.println(a);
+
+        int n = a.length();
+
+        for(int i = n ; i>=0;i--) 
+        {
+            System.out.println(a.charAt(i - 1));
+        }
+        
     }
     
 }
