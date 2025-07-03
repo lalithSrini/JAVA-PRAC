@@ -14,12 +14,12 @@ public class bulbtoggle {
                 if(a[j] == 0){
                     a[j] = 1;
                 }
+
                 else {
                     a[j] = 0;
                 }
             }
         }
-
         for(int i = 0; i < n; i++){
             System.out.print(a[i] + " ");
         }
@@ -34,5 +34,8 @@ public class bulbtoggle {
         }
 
         System.out.print(c);
+
     }
+    
+    
 }
